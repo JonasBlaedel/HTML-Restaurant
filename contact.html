@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Restaurant KEA | Html Restaurant</title>
+  </head>
+  <body>
+    <header>
+      <h1>Restaurant KEA</h1>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/menu.html">Menu</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <p><em>Guldbergsgade 29N 2200 Copenhagen </em></p>
+          <p>
+            <em>Phone no.:<a href="tel:20 82 53 70">20 82 53 70</a></em>
+          </p>
+          <p>
+            <em>Email: <a href="mailto:info@restaurantkea.dk">info@restaurantkea.dk</a></em>
+          </p>
+        </section>
+        <section><img src="img/map.jpg" alt="Kea Restaurant Map" /></section>
+        <section>
+          <form>
+            <fieldset>
+              <legend>Contact form</legend>
+              <div>
+                <label for="full-name">Full name</label>
+                <input id="full-name" name="full-name" type="text" />
+              </div>
+              <div>
+                <label for="phone">Phone no.</label>
+                <input id="phone" name="phone" type="phone" />
+              </div>
+              <div>
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" />
+              </div>
+              <div>
+                <label for="persons">Persons</label>
+                <input id="persons" name="persons" type="number" value="2" min="1" max="10" />
+              </div>
+              <div>
+                <label for="date">Date and time</label>
+                <input id="date" name="date" type="datetime-local" />
+              </div>
+              <div>
+                <label for="info">Further informantion</label><br />
+                <textarea name="info" id="info"></textarea>
+              </div>
+              <button>Submit</button>
+            </fieldset>
+          </form>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; KEA Development</p>
+    </footer>
+  </body>
+</html>
